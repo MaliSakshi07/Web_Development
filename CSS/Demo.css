@@ -1,0 +1,29 @@
+#myid{
+    height: 520px;
+    width: 170px;
+    background-color:black;
+    padding-left: 10px;
+    padding-top: 15px;
+
+}
+#Red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#Yellow{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#Green{
+    height: 150px;
+    width: 150px;
+    background-color:green;
+    border-radius: 50%;
+    border: 2px solid white;
+}
