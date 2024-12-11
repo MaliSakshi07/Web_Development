@@ -1,0 +1,93 @@
+*{
+    font-family: Arial;
+}
+
+.Container{
+    margin: 90px 230px; 
+    height: 100%;
+    display: grid;
+    padding: 75px 100px;
+    grid-template-columns:auto auto auto;
+    box-shadow:5px 5px 2px 5px rgb(236, 234, 234);
+}
+
+
+.add-icon{
+    align-items:center ;
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.429);
+ }
+.car{
+    height: 350px;
+}
+
+.Sedans{
+    
+    background-color: orange;
+}
+
+.Suvs{
+    background-color: rgb(43, 121, 98);
+}
+
+.Luxury{
+    background-color: #064747;
+
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    color: white;
+   
+}
+
+p{
+    font-size: 0.85rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20%;
+    color: rgba(255, 255, 255, 0.512);
+}
+
+button{
+    text-align: center;
+    margin-left: 15%;
+    block-size: 10%;
+    font-size: small;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+    background-color: white;
+  
+}
+
+#B1{
+    color: #ff5f15;
+}
+
+#B2{
+    color: rgb(43, 121, 98);
+}
+
+#B3{
+    color:#064747;
+}
+
+@media (max-width:700px)
+{
+    .Container{
+            grid-template-columns: repeat(1, 1fr);
+            margin:auto;
+            width:250px;
+            padding: 10px auto;
+    }  
+    .car{
+        max-width: 200px;
+    }
+}
