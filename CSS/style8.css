@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+}
+.header{
+    height: 70px;
+    /* width: 100%; */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size:xx-large ;
+    padding-top: 25px;
+    border-bottom: 4px solid black;
+}
+
+.container{
+    height: 420px;
+    background-color: pink;
+}
+
+.section{
+    height: 500px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    display: black;
+}
+
+p{
+    display: block;
+    height: 30px;
+    width: 196px;
+    background-color: green;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding-top: 5px;
+    /* padding-left: 15px; */
+}
+
+.footer{
+    height: 210px;
+    background-color: grey;
+}
